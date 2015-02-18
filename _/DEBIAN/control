@@ -1,0 +1,9 @@
+Package: com.ninjaprawn.noteification.nc
+Name: Note-ification
+Architecture: iphoneos-arm
+Description: Notes in Note-ification
+Maintainer: Ninjaprawn
+Author: Ninjaprawn
+Section: Tweaks
+Version: 1.2.3-3
+Installed-Size: 632

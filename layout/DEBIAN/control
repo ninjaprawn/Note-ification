@@ -1,0 +1,8 @@
+Package: com.ninjaprawn.noteification.nc
+Name: Note-ification
+Version: 1.2.3
+Architecture: iphoneos-arm
+Description: Notes in Note-ification
+Maintainer: Ninjaprawn
+Author: Ninjaprawn
+Section: Tweaks

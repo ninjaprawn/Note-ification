@@ -1,0 +1,8 @@
+Package: com.ninjaprawn.noteification.nc.all
+Name: Note-ification All
+Version: 1.2.3
+Architecture: iphoneos-arm
+Description: Notes in Notification Center All Tab
+Maintainer: Ninjaprawn
+Author: Ninjaprawn
+Section: Tweaks

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>openfile:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Export note to...</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>savenote:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Save to notes...</string>
+		</dict>
+		<dict>
+			<key>footerText</key>
+			<string>Some fonts may not support Bold/Italic. They will instead be replaced with their default font</string>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Font Options</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.ninjaprawn.noteification.prefs</string>
+			<key>key</key>
+			<string>bff</string>
+			<key>label</key>
+			<string>Use BytaFont/Default font</string>
+		</dict>
+		<dict>
+			<key>validValues</key>
+			<array>
+				<string>Bold</string>
+				<string>Italic</string>
+				<string>Regular</string>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>Bold</string>
+				<string>Italic</string>
+				<string>Regular</string>
+			</array>
+			<key>label</key>
+			<string>Font Type</string>
+			<key>key</key>
+			<string>FontType</string>
+			<key>defaults</key>
+			<string>com.ninjaprawn.noteification.prefs</string>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>default</key>
+			<string>Regular</string>
+		</dict>
+		<dict>
+			<key>validValues</key>
+			<array>
+				<integer>12</integer>
+				<integer>14</integer>
+				<integer>16</integer>
+				<integer>18</integer>
+				<integer>20</integer>
+				<integer>22</integer>
+				<integer>24</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>12</string>
+				<string>14</string>
+				<string>16</string>
+				<string>18</string>
+				<string>20</string>
+				<string>22</string>
+				<string>24</string>
+			</array>
+			<key>label</key>
+			<string>Font Size</string>
+			<key>key</key>
+			<string>FontSize</string>
+			<key>defaults</key>
+			<string>com.ninjaprawn.noteification.prefs</string>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>default</key>
+			<integer>16</integer>
+		</dict>
+		<dict>
+			<key>validValues</key>
+			<array>
+				<string>AvenirNext</string>
+				<string>Baskerville</string>
+				<string>Courier</string>
+				<string>Didot</string>
+				<string>EuphemiaUCAS</string>
+				<string>Futura-Medium</string>
+				<string>Georgia</string>
+				<string>GillSans</string>
+				<string>Kailasa</string>
+				<string>Menlo</string>
+				<string>Optima</string>
+				<string>Palatino</string>
+				<string>TimesNewRomanPS</string>
+				<string>TrebuchetMS</string>
+				<string>Verdana</string>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>Avenir Next</string>
+				<string>Baskerville</string>
+				<string>Courier</string>
+				<string>Didot</string>
+				<string>Euphemia UCAS</string>
+				<string>Futura</string>
+				<string>Georgia</string>
+				<string>Gill Sans</string>
+				<string>Kailasa</string>
+				<string>Menlo</string>
+				<string>Optima</string>
+				<string>Palatino</string>
+				<string>Times New Roman</string>
+				<string>Trebuchet</string>
+				<string>Verdana</string>
+			</array>
+			<key>label</key>
+			<string>Font</string>
+			<key>key</key>
+			<string>FontName</string>
+			<key>defaults</key>
+			<string>com.ninjaprawn.noteification.prefs</string>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>default</key>
+			<string>AvenirNext</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Saving Options</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<string>NO</string>
+			<key>defaults</key>
+			<string>com.ninjaprawn.noteification.prefs</string>
+			<key>key</key>
+			<string>saven</string>
+			<key>label</key>
+			<string>Automatically save to Notes</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Information</string>
+			<key>footerText</key>
+			<string>Copyright © 2014 TheNinjaprawn</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSTitleValueCell</string>
+			<key>get</key>
+			<string>valueForSpecifier:</string>
+			<key>label</key>
+			<string>Version:</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>twitter:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>icon</key>
+			<string>twitter.png</string>
+			<key>label</key>
+			<string>@theninjaprawn (Developer)</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Note-ification</string>
+</dict>
+</plist>
